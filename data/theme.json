@@ -1,0 +1,53 @@
+{
+    "themeId": "default",
+    "themes": [
+        {
+            "id": "default",
+            "name": "Default",
+            "colors": {
+                "base": "#fff",
+                "baseOffset": "#f2f2f2",
+                "baseOffset2": "#ececec",
+                "baseText": "#202020",
+                "baseTextOffset": "#373434",
+                "primary": "#2b3af7",
+                "primaryOffset": "#4224d9",
+                "primaryText": "#ffffff"
+            },
+            "fonts": {
+                "base": "Lato",
+                "heading": "Source Sans Pro"
+            }
+        },
+        {
+            "id": "steelyard",
+            "name": "Steelyard",
+            "colors": {
+                "base": "#edf2f4",
+                "baseOffset": "#ced8e8",
+                "baseOffset2": "#a6abde",
+                "baseText": "#1b3037",
+                "baseTextOffset": "#1b3037",
+                "primary": "#ef233c",
+                "primaryOffset": "#d90429",
+                "primaryText": "#ffffff"
+            },
+            "fonts": {
+                "base": "Roboto",
+                "heading": "Raleway"
+            }
+        }
+    ],
+    "darkMode": {
+        "colors": {
+            "base": "#121212",
+            "baseOffset": "#1e1e1e",
+            "baseOffset2": "#202020",
+            "baseText": "#ffffff",
+            "baseTextOffset": "#d7d7d7",
+            "primary": "#f33ba1",
+            "primaryOffset": "#a13bf3",
+            "primaryText": "#eeebfc"
+        }
+    }
+}

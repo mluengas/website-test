@@ -78,6 +78,38 @@ models:
         name: footer
         label: Footer configuration
         models: [footer]
+  theme:
+    type: data
+    label: Theme
+    file: "theme.json"
+    fields:
+      - type: list
+        name: themes
+        label: Themes
+        items:
+          type: object
+          labelField: label  # labelField specifies which field value to use as the list item label
+          fields:
+            - type: string
+              name: id
+              label: ID
+            - type: string
+              name: name
+              label: Name
+            - type: object
+              name: colors
+              label: Colors
+              description: Theme Colors
+              fields:
+                - type: string
+                  name: base
+                  label: Base
+                - type: string
+                  name: baseText
+                  label: Base Text
+                - type: string
+                  name: primary
+                  label: Primary
   header:
     type: object
     label: Header configuration

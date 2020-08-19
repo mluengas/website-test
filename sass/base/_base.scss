@@ -13,19 +13,6 @@ body {
 	@include font-smooth();
 }
 
-@each $style in map-keys($theme-styles) {
-	$style-suffix: "#{$style}";
-	$fonts: map-deep-get($theme-styles, $style, "fonts");
-	@each $font, $stack in $fonts {
-		$font-suffix: "#{$font}";
-		.style-#{$style-suffix} {
-			&.font-#{$font-suffix} {
-				font-family: $stack;
-			}
-		}
-	}
-}
-
 a {
 	color: $color-link;
 	text-decoration: underline;

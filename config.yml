@@ -119,7 +119,7 @@ params:
         url: https://www.stackbit.com
         style: link
 sass:
-  input_file: sass/main.scss
+  input_file: sass/main.scss.njk
   output_file: css/main.css
   indentWidth: 4
   outputStyle: expanded
